@@ -4,6 +4,8 @@ import torch
 import torch.nn.functional as F
 from sklearn.preprocessing import StandardScaler
 import random
+df_core = pd.read_csv("nutrition.csv")
+
 
 st.set_page_config(page_title="AI Diet Recommendation System", layout="centered")
 
