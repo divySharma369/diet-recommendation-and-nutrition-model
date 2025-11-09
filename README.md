@@ -1,2 +1,9 @@
-# diet-recommendation-and-nutrition-model
-An AI-powered diet recommendation system built with PyTorch and Streamlit. 🍎 It analyzes real nutritional data to suggest personalized meals for goals like muscle gain, weight loss, or balanced nutrition. Calculates calorie needs and recommends smart food choices using machine learning.
+# 🥗 AI Diet Recommendation System
+This project is an AI-powered diet recommendation system built using PyTorch and Streamlit.
+It predicts and suggests food items based on user goals like muscle gain, weight loss, or high fiber diets.
+
+## Run locally
+```bash
+pip install -r requirements.txt
+streamlit run diet_app.py
+Developed in Kaggle by Divy Sharma 💚
